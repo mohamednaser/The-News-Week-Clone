@@ -152,6 +152,7 @@ header .row {
 //end Header Section >>  Main Navigation Bar
 
 // start main-stories-section
+
 .featured-stories-flex-container {
   display: flex;
   width: 30%;
@@ -302,6 +303,7 @@ header .row {
 .latest-news-title {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   color: #000;
 }
 
@@ -432,7 +434,7 @@ header .row {
 }
 
 .us-main-right-div {
-  width: 30%;
+  width: 35%;
   margin-left: 2vh;
 }
 
@@ -623,11 +625,11 @@ footer {
 
 @media (max-width: 990px) {
   header {
-    display: none;
+    display: none !important;
   }
 
-  #sticky-header {
-    display: block;
+  .sticky-header {
+    display: block !important;
   }
 
   .featured-stories-flex-container,
@@ -683,7 +685,7 @@ footer {
     display: none;
   }
 
-  #sticky-header {
+  .sticky-header {
     display: block !important;
   }
 
@@ -694,8 +696,13 @@ footer {
   .editor-pick-story-item,
   .featured-slidshow-item,
   .us-main-colum-item,
-  .us-main-left-div {
+  .us-main-left-div,
+  .main-stories-section-container {
     width: 100%;
+  }
+
+  .sign-up-form {
+    width: 80%;
   }
 
   .us-main-right-div {

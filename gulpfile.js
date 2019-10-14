@@ -3,11 +3,15 @@
 var gulp = require("gulp");
 var browserSync = require("browser-sync").create();
 var sass = require("gulp-sass");
+var autoprefixer = require("gulp-autoprefixer");
 // Compile sass into CSS & auto-inject into browsers
 gulp.task("sass", function() {
   return gulp
-    .src(["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"])
+    .src(["src/scss/*.scss"])
     .pipe(sass())
+    .pipe(autoprefixer({
+      cascade: false
+  }))
     .pipe(gulp.dest("src/css"))
     .pipe(browserSync.stream());
 });
@@ -27,12 +31,12 @@ gulp.task(
   "serve",
   gulp.series(["sass"], function() {
     browserSync.init({
-      server: "./src"
+      server: "./"
     });
     gulp.watch(
       ["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"],gulp.series(["sass"])
     );
-    gulp.watch("src/*.html").on("change", browserSync.reload);
+    gulp.watch("*.html").on("change", browserSync.reload);
   })
 );
 gulp.task("default", gulp.series(["js", "serve"]));
