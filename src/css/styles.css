@@ -32,6 +32,7 @@ body {
   background-color: red;
   padding-bottom: 7vh;
   display: none;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 99;
@@ -167,6 +168,7 @@ header .row {
 
 .featured-story-title:hover {
   color: #000;
+  -webkit-text-decoration-color: red;
   text-decoration-color: red;
 }
 
@@ -292,6 +294,7 @@ header .row {
 .latest-news-title {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   color: #000;
 }
 
@@ -672,8 +675,13 @@ footer {
   .editor-pick-story-item,
   .featured-slidshow-item,
   .us-main-colum-item,
-  .us-main-left-div {
+  .us-main-left-div,
+  .main-stories-section-container {
     width: 100%;
+  }
+
+  .sign-up-form {
+    width: 80%;
   }
 
   .us-main-right-div {
