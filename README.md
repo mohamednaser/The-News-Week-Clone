@@ -23,14 +23,17 @@ This project was executed by the duo of :
 
 ## Done Work
 
-- [x] Create Fixed Header Nav Bar
+- [x] Setup project with (Gulp , Gulp Sass , browser-sync) 
+- [X] Create Fixed Header Nav Bar
+- [x] Toggle Nav on Scroll Down
 - [x] Create Main Article Section (right , left ) sides 
 - [x] Create Latest News Section.
-- [x] Create Microsoft Eurface Events Section.
-- [x] Create Latest Funding News Section.
-- [x] Create App News Section.
-- [x] Create Latest Deals Section.
+- [x] Create CULTURE & TRAVEL Section.
+- [x] Create IN THE MAGAZINE Section.
+- [x] Create EDITOR'S PICK Section.
+- [x] Create FEATURED SLIDESHOWS Section.
 - [x] Create Article Div
+- [X] Create SUBSCRIBE Section
 - [x] Crete footer div
 - [x] Use Semintaic HTML
 - [x] Use Flex in (footer articles , middle article image)
