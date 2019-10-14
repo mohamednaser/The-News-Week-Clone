@@ -51,7 +51,7 @@ git clone https://github.com/mohamednaser/The-News-Week-Clone.git
 
 ## Live Version
 
-Live version [here](https://google.com) [pending].
+Live version [here](https://mohamednaser.github.io/The-News-Week-Clone/).
 
 ## ScreenShot For Page
 ### ScreenShot In Desktop Screen
