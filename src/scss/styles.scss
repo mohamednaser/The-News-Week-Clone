@@ -623,11 +623,11 @@ footer {
 
 @media (max-width: 990px) {
   header {
-    display: none;
+    display: none !important;
   }
 
-  #sticky-header {
-    display: block;
+  .sticky-header {
+    display: block !important;
   }
 
   .featured-stories-flex-container,
@@ -683,7 +683,7 @@ footer {
     display: none;
   }
 
-  #sticky-header {
+  .sticky-header {
     display: block !important;
   }
 

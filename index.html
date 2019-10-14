@@ -36,7 +36,7 @@
   </head>
 
   <body>
-    <nav class="sticky-header" id="sticky-header">
+    <nav class="sticky-header">
       <div class="sticky-left-header">
         <div class="left-logo">
           <a class="stickyBrand" href="/">
@@ -1818,10 +1818,10 @@
       window.onscroll = () => {
         if (document.body.clientWidth > 990) {
           if (window.pageYOffset > 60)
-            document.getElementById("sticky-header").style.display = "block";
+            document.getElementsByClassName("sticky-header")[0].style.display = "block";
           else {
-            document.getElementById("sticky-header").style.display = "none";
-            document.getElementsByTagName("header").style.display = "block";
+            document.getElementsByClassName("sticky-header")[0].style.display = "none";
+            document.getElementsByTagName("header")[0].style.display = "block";
           }
         }
       };

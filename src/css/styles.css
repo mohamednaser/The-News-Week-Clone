@@ -498,9 +498,9 @@ footer {
 
 @media (max-width: 990px) {
   header {
-    display: none; }
-  #sticky-header {
-    display: block; }
+    display: none !important; }
+  .sticky-header {
+    display: block !important; }
   .featured-stories-flex-container,
   .top-story-fle-container {
     width: 50%; }
@@ -532,7 +532,7 @@ footer {
 @media (max-width: 765px) {
   header {
     display: none; }
-  #sticky-header {
+  .sticky-header {
     display: block !important; }
   .featured-stories-flex-container,
   .top-story-fle-container,
