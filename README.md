@@ -1,3 +1,5 @@
+[![Developer](https://img.shields.io/badge/Developer-Mohamed%20Naser%20Amein-green)](https://www.linkedin.com/in/mohamednaseramein/)
+
 # The News Week Clone
 
 The News Week Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of The News Week WebSite With Responsive Design.
